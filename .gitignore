@@ -1,0 +1,54 @@
+# OpenCart generated storage
+system/storage/cache/*
+system/storage/logs/*
+system/storage/session/*
+system/storage/upload/*
+system/storage/modification/*
+system/storage/vendor/*
+system/storage/download/*
+
+# Keep required storage directories
+!system/storage/cache/.gitkeep
+!system/storage/logs/.gitkeep
+!system/storage/session/.gitkeep
+!system/storage/upload/.gitkeep
+!system/storage/modification/.gitkeep
+!system/storage/vendor/.gitkeep
+!system/storage/download/.gitkeep
+
+# Local OpenCart configuration
+config.php
+admin/config.php
+
+# Environment / local configuration
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# PHP / development cache
+.phpunit.result.cache
+
+# Archives / local backups
+*.zip
+*.rar
+*.7z
